@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "title": "FamilyGuardAngel - Protection Without Intrusion",
+    "description": "Revolutionary mmWave radar technology for elderly fall detection. Zero cameras. 100% privacy."
+  },
+  "nav": {
+    "problem": "Problem",
+    "solution": "Solution",
+    "market": "Market",
+    "businessModel": "Business Model",
+    "financials": "Financials",
+    "team": "Team",
+    "contact": "Contact"
+  },
+  "hero": {
+    "headline": "Protection Without Intrusion",
+    "subheadline": "Revolutionary mmWave radar technology for elderly fall detection. Zero cameras. 100% privacy.",
+    "stat": "5M+",
+    "statLabel": "elderly Poles living alone",
+    "cta": "Request Investor Deck"
+  },
+  "problem": {
+    "title": "The Crisis No One Talks About",
+    "longLie": {
+      "title": "\"The Long Lie\"",
+      "description": "Elderly falls undiscovered for hours, even days"
+    },
+    "bathroom": {
+      "stat": "80%",
+      "description": "of falls occur in bathrooms where cameras are unacceptable"
+    },
+    "wearables": {
+      "stat": "40%+",
+      "title": "Wearables Fail",
+      "description": "non-compliance - forgotten, uncharged, removed during bathing"
+    },
+    "sandwich": {
+      "stat": "6-7M",
+      "title": "The \"Sandwich Generation\" Crisis",
+      "description": "Poles aged 35-55 caring for aging parents remotely"
+    }
+  },
+  "solution": {
+    "title": "The Invisible Guardian",
+    "subtitle": "60GHz mmWave Radar Technology",
+    "features": {
+      "steam": {
+        "title": "Through Steam & Humidity",
+        "description": "Detects falls even in a steamy bathroom"
+      },
+      "vitals": {
+        "title": "Vital Signs Monitoring",
+        "description": "Monitors breathing without body contact"
+      },
+      "privacy": {
+        "title": "100% Privacy",
+        "description": "Works in bathrooms without privacy invasion"
+      },
+      "zero": {
+        "title": "Zero User Interaction",
+        "description": "\"Grandma can't forget to wear the wall\""
+      }
+    },
+    "comparison": {
+      "title": "Technology Comparison",
+      "headers": {
+        "feature": "Feature",
+        "cameras": "Cameras",
+        "wearables": "Wearables",
+        "fga": "FamilyGuardAngel"
+      },
+      "rows": {
+        "privacy": "Privacy",
+        "bathroom": "Works in bathroom",
+        "userAction": "Requires user action",
+        "vitals": "Vital signs monitoring",
+        "reliability": "24/7 Reliability"
+      }
+    }
+  },
+  "market": {
+    "title": "Market Opportunity",
+    "tam": {
+      "label": "TAM",
+      "value": "5M+",
+      "description": "elderly living alone in Poland"
+    },
+    "sam": {
+      "label": "SAM",
+      "value": "500,000",
+      "description": "in major cities with broadband"
+    },
+    "target": {
+      "label": "Target",
+      "value": "0.5%",
+      "description": "market share in 36 months"
+    },
+    "expansion": {
+      "label": "Expansion",
+      "value": "EU",
+      "description": "European expansion potential"
+    }
+  },
+  "businessModel": {
+    "title": "Safety-as-a-Service",
+    "tagline": "Low barrier to entry, sustainable recurring revenue",
+    "hardware": {
+      "label": "Hardware Kit",
+      "price": "499 PLN",
+      "note": "near break-even"
+    },
+    "subscription": {
+      "label": "Subscription",
+      "price": "69 PLN/mo",
+      "note": ">90% margin"
+    },
+    "ltv": {
+      "title": "Customer Lifetime Value",
+      "calculation": "69 PLN × 36 mo = 2,484 PLN",
+      "ratio": "LTV:CAC ratio > 5:1"
+    },
+    "streams": {
+      "title": "Revenue Streams",
+      "hardware": "Hardware Sales",
+      "subscription": "Subscriptions",
+      "b2b": "B2B Partnerships",
+      "data": "Data Analytics"
+    }
+  },
+  "financials": {
+    "title": "Financial Roadmap",
+    "years": {
+      "y1": {
+        "year": "Year 1 (2026)",
+        "description": "Investment phase",
+        "revenue": "Investment"
+      },
+      "y2": {
+        "year": "Year 2 (2027)",
+        "description": "Break-even Q3",
+        "revenue": "1.6M PLN"
+      },
+      "y3": {
+        "year": "Year 3 (2028)",
+        "description": "Profitability",
+        "revenue": "4.5M PLN"
+      }
+    },
+    "highlight": "85% CAPEX reduction via Smart OEM strategy",
+    "chart": {
+      "revenue": "Revenue",
+      "costs": "Costs",
+      "profit": "Profit"
+    }
+  },
+  "competitive": {
+    "title": "Competitive Positioning",
+    "axes": {
+      "privacy": "Privacy",
+      "privacyLow": "Low",
+      "privacyHigh": "High",
+      "friction": "User Friction",
+      "frictionHigh": "High",
+      "frictionLow": "Low"
+    },
+    "legend": {
+      "cameras": "Cameras",
+      "wearables": "Wearables",
+      "premium": "Premium Solutions",
+      "fga": "FamilyGuardAngel"
+    },
+    "callout": "Blue Ocean Opportunity"
+  },
+  "roadmap": {
+    "title": "Roadmap & Milestones",
+    "milestones": {
+      "q1_2026": {
+        "date": "Q1 2026",
+        "title": "Beta Launch",
+        "description": "100 households"
+      },
+      "q2_2026": {
+        "date": "Q2 2026",
+        "title": "Commercial Launch",
+        "description": "Market entry"
+      },
+      "q4_2026": {
+        "date": "Q4 2026",
+        "title": "1,000 Subscribers",
+        "description": "First scale milestone"
+      },
+      "q3_2027": {
+        "date": "Q3 2027",
+        "title": "Break-even",
+        "description": "Achieved"
+      },
+      "2028": {
+        "date": "2028",
+        "title": "B2B Partnerships",
+        "description": "LuxMed, PZU and others"
+      }
+    }
+  },
+  "team": {
+    "title": "The Team",
+    "roles": {
+      "ceo": "CEO",
+      "cto": "CTO",
+      "marketing": "Marketing Director",
+      "sales": "Sales Director",
+      "operations": "Operations"
+    },
+    "viewLinkedIn": "LinkedIn"
+  },
+  "cta": {
+    "title": "Join Us in Building the Future of Elder Care",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "company": "Company",
+      "interest": "Investment Interest",
+      "interestOptions": {
+        "select": "Select range...",
+        "seed": "Seed Round (up to 500k PLN)",
+        "seriesA": "Series A (500k - 2M PLN)",
+        "seriesB": "Series B (2M+ PLN)",
+        "strategic": "Strategic Partner",
+        "other": "Other"
+      }
+    },
+    "buttons": {
+      "download": "Download Pitch Deck",
+      "schedule": "Schedule a Meeting"
+    },
+    "validation": {
+      "nameRequired": "Please enter your name",
+      "emailRequired": "Please enter a valid email",
+      "interestRequired": "Please select your investment interest"
+    },
+    "success": "Thank you! We'll be in touch soon."
+  },
+  "footer": {
+    "copyright": "© 2026 FamilyGuardAngel. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "cookie": {
+    "message": "This website uses cookies to ensure the best quality of service.",
+    "accept": "Accept",
+    "learnMore": "Learn More"
+  }
+}

@@ -1,14 +1,15 @@
-# CLAUDE.md - AI Assistant Guidelines for Marketing Project
+# CLAUDE.md - AI Assistant Guidelines for FamilyGuardAngel
 
 This file provides context and guidelines for AI assistants (like Claude) working on this repository.
 
 ## Project Overview
 
 **Repository:** marketing_project
-**Status:** New project (initialized)
-**Purpose:** Marketing-related project resources, campaigns, and assets
+**Project:** FamilyGuardAngel Investor Landing Page
+**Status:** Active development
+**Purpose:** Bilingual (Polish/English) investor landing page for IoT fall detection startup
 
-This is a marketing project repository. As the project evolves, this document should be updated to reflect the current state of the codebase.
+FamilyGuardAngel is an IoT startup targeting Poland's aging population with mmWave radar technology for elderly fall detection. This repository contains the investor-facing landing page.
 
 ---
 
@@ -17,68 +18,154 @@ This is a marketing project repository. As the project evolves, this document sh
 ```
 marketing_project/
 ├── CLAUDE.md           # AI assistant guidelines (this file)
-├── README.md           # Project documentation (to be created)
+├── index.html          # Main landing page (bilingual PL/EN)
+├── styles.css          # All CSS styles (responsive, animations)
+├── main.js             # JavaScript (i18n, form handling, animations)
 ├── assets/             # Marketing assets (images, videos, graphics)
-├── campaigns/          # Campaign-specific materials
-├── content/            # Written content, copy, and messaging
-├── data/               # Analytics data, reports, metrics
-├── scripts/            # Automation scripts
-├── templates/          # Reusable templates
-└── docs/               # Additional documentation
+└── locales/            # Translation files
+    ├── pl/
+    │   └── translation.json    # Polish translations
+    └── en/
+        └── translation.json    # English translations
 ```
 
-> **Note:** This structure is recommended. Create directories as needed for the project.
+---
+
+## Technology Stack
+
+- **HTML5** - Semantic markup with accessibility considerations
+- **CSS3** - Custom properties, Flexbox, Grid, animations
+- **Vanilla JavaScript** - No frameworks, ES6+ features
+- **Google Fonts** - Inter font family
+
+### Key Features
+
+- **Bilingual Support** (Polish/English)
+  - Language toggle in header (PL | EN)
+  - localStorage persistence
+  - URL parameter support (`?lang=pl` or `?lang=en`)
+  - Browser language auto-detection
+
+- **Responsive Design**
+  - Mobile-first approach
+  - Breakpoints: 576px, 768px, 968px, 1024px
+  - Hamburger menu for mobile
+
+- **Animations**
+  - Radar wave CSS animation in hero
+  - Scroll-triggered animations via IntersectionObserver
+  - Counter animations for statistics
+  - Smooth transitions
+
+---
+
+## Brand Guidelines
+
+### Colors
+
+| Color | Hex | Usage |
+|-------|-----|-------|
+| Primary (Deep Blue) | `#1E3A5F` | Trust, security, headers |
+| Accent (Warm Orange) | `#E07A3B` | CTAs, highlights, energy |
+| Primary Light | `#2A4A73` | Gradients, hover states |
+| Primary Dark | `#152D4A` | Dark sections |
+
+### Typography
+
+- **Font Family:** Inter (Google Fonts)
+- **Weights:** 300, 400, 500, 600, 700, 800
+- **Scale:** xs (0.75rem) to 6xl (3.75rem)
+
+---
+
+## Page Sections
+
+1. **Hero** - Headline, key stat, CTA
+2. **Problem** - "The Crisis No One Talks About"
+3. **Solution** - mmWave technology features, comparison table
+4. **Market** - TAM/SAM/Target market opportunity
+5. **Business Model** - Pricing, LTV, revenue streams
+6. **Financials** - 3-year roadmap
+7. **Competitive** - 2x2 positioning matrix
+8. **Roadmap** - Timeline of milestones
+9. **Team** - 5 team member placeholders
+10. **Contact** - Investor inquiry form
+11. **Footer** - Copyright, links
 
 ---
 
 ## Development Guidelines
 
-### Git Workflow
+### Adding/Editing Translations
 
-1. **Branch Naming Convention:**
-   - Feature branches: `feature/<description>`
-   - Bug fixes: `fix/<description>`
-   - Claude AI work: `claude/<description>-<session-id>`
+1. Edit both `locales/pl/translation.json` and `locales/en/translation.json`
+2. Use dot notation for nested keys: `"section.subsection.key"`
+3. Reference in HTML with `data-i18n="section.subsection.key"`
 
-2. **Commit Messages:**
-   - Use clear, descriptive commit messages
-   - Start with a verb (Add, Update, Fix, Remove, Refactor)
-   - Keep the subject line under 72 characters
-   - Example: `Add Q1 campaign landing page copy`
+### CSS Variables
 
-3. **Push Commands:**
-   - Always use: `git push -u origin <branch-name>`
-   - Ensure branch names match the expected format
+All design tokens are CSS custom properties in `:root`. Modify these for theming:
 
-### File Organization
+```css
+--color-primary: #1E3A5F;
+--color-accent: #E07A3B;
+--spacing-md: 1rem;
+--radius-md: 0.5rem;
+```
 
-- **Assets:** Store in `/assets/` with subdirectories by type or campaign
-- **Content:** Keep written content in `/content/` organized by purpose
-- **Data:** Store analytics and metrics in `/data/` with clear naming
-- **Templates:** Reusable templates go in `/templates/`
+### Adding New Sections
 
-### Naming Conventions
+1. Add HTML section with `id` attribute
+2. Add navigation link in header
+3. Add translations to both JSON files
+4. Add styles following BEM-like conventions
+5. Add `animate-on-scroll` class for scroll animations
 
-- **Files:** Use lowercase with hyphens: `campaign-brief-q1-2026.md`
-- **Directories:** Use lowercase with underscores or hyphens
-- **Assets:** Include date or version: `logo-v2.png`, `banner-2026-01.jpg`
+### Form Handling
+
+The contact form submits to console (demo mode). To integrate:
+1. Update `handleFormSubmit()` in `main.js`
+2. Add your API endpoint or form service
 
 ---
 
-## Content Guidelines
+## Git Workflow
 
-### Marketing Copy Standards
+### Branch Naming
 
-1. **Tone:** [Define project-specific tone - professional, casual, etc.]
-2. **Voice:** [Define brand voice characteristics]
-3. **Target Audience:** [Define primary audience segments]
+- Feature: `feature/<description>`
+- Bug fix: `fix/<description>`
+- Claude AI: `claude/<description>-<session-id>`
 
-### File Formats
+### Commit Messages
 
-- **Documents:** Markdown (`.md`) preferred for text content
-- **Spreadsheets:** CSV for data, or link to external tools
-- **Images:** PNG for graphics, JPG for photos, SVG for icons
-- **Videos:** MP4 preferred, with compressed versions for web
+- Start with verb: Add, Update, Fix, Remove, Refactor
+- Under 72 characters
+- Example: `Add contact form validation`
+
+---
+
+## Deployment
+
+### Static Hosting (Recommended)
+
+Deploy to any static host:
+- **Vercel:** `vercel --prod`
+- **Netlify:** Drag & drop or CLI
+- **GitHub Pages:** Push to `gh-pages` branch
+
+### Requirements
+
+- No build step needed
+- Serve from root directory
+- Ensure `locales/` directory is accessible
+
+### Performance
+
+Target Lighthouse scores: 90+ across all metrics
+- Minimize images, use SVG where possible
+- Keep JavaScript minimal (no frameworks)
+- Use `loading="lazy"` for below-fold images
 
 ---
 
@@ -86,28 +173,29 @@ marketing_project/
 
 ### When Working on This Repository
 
-1. **Always read existing files** before making modifications
-2. **Preserve existing formatting** and conventions
-3. **Follow the directory structure** outlined above
-4. **Create clear commit messages** describing changes
-5. **Update this CLAUDE.md** when adding new conventions or structures
+1. **Read existing files** before modifications
+2. **Maintain bilingual parity** - update both language files
+3. **Follow CSS variable system** for styling
+4. **Test responsive design** at all breakpoints
+5. **Preserve animation classes** when editing HTML
 
 ### Common Tasks
 
 | Task | Guidelines |
 |------|------------|
-| Create new content | Place in `/content/` with descriptive filename |
-| Add campaign materials | Create subdirectory in `/campaigns/<campaign-name>/` |
-| Update assets | Version existing files, don't overwrite |
-| Add data/reports | Use ISO dates in filenames (YYYY-MM-DD) |
-| Write documentation | Use Markdown format in `/docs/` |
+| Update copy | Edit both `translation.json` files |
+| Change colors | Modify CSS variables in `:root` |
+| Add section | HTML + nav link + translations + styles |
+| Fix mobile | Check breakpoints in `styles.css` |
+| Update team | Edit HTML in team section |
 
 ### Things to Avoid
 
-- Don't delete files without explicit permission
-- Don't commit sensitive data (API keys, passwords, PII)
-- Don't create deeply nested directory structures
-- Don't use ambiguous filenames like `final.md` or `new-version.txt`
+- Breaking translation key paths
+- Removing `data-i18n` attributes
+- Hardcoding text (use translation system)
+- Adding heavy dependencies
+- Breaking responsive layout
 
 ---
 
@@ -115,45 +203,49 @@ marketing_project/
 
 ### Current Status
 
-- **Phase:** Initial setup
-- **Active Campaigns:** None yet
-- **Pending Tasks:** Repository structure setup
+- **Phase:** MVP Complete
+- **Features:** All 11 sections implemented
+- **Languages:** Polish (default), English
 
-### Key Contacts
+### Pending Enhancements
 
-[Add team contacts and roles as needed]
+- [ ] Add real team photos/bios
+- [ ] Integrate form with backend/email service
+- [ ] Add calendar booking integration
+- [ ] Implement dark mode toggle
+- [ ] Add analytics tracking
+- [ ] Create favicon and OG images
 
 ### External Resources
 
-[Add links to external tools, brand guidelines, style guides, etc.]
+- [FamilyGuardAngel Brand Guidelines] - TBD
+- [Investor Pitch Deck] - TBD
 
 ---
 
 ## Quick Reference
 
-### Useful Commands
+### Local Development
 
 ```bash
-# Check repository status
-git status
+# Simple HTTP server (Python)
+python -m http.server 8000
 
-# Create and switch to new branch
-git checkout -b feature/<branch-name>
+# Or with Node.js
+npx serve .
 
-# Stage all changes
-git add .
-
-# Commit with message
-git commit -m "Description of changes"
-
-# Push to remote
-git push -u origin <branch-name>
+# Open browser
+open http://localhost:8000
 ```
 
-### Important Files to Review
+### Key Files
 
-- `CLAUDE.md` - This file (AI guidelines)
-- `README.md` - Project overview and setup (when created)
+| File | Purpose |
+|------|---------|
+| `index.html` | Main page structure |
+| `styles.css` | All styling |
+| `main.js` | All JavaScript |
+| `locales/*/translation.json` | Translations |
 
 ---
 
@@ -162,6 +254,7 @@ git push -u origin <branch-name>
 | Date | Change | Author |
 |------|--------|--------|
 | 2026-01-28 | Initial CLAUDE.md created | Claude AI |
+| 2026-01-28 | FamilyGuardAngel landing page MVP | Claude AI |
 
 ---
 

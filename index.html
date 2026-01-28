@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="meta.title">FamilyGuardAngel - Ochrona bez Inwigilacji</title>
+    <meta name="description" data-i18n="meta.description" content="Rewolucyjna technologia radarowa mmWave do wykrywania upadków seniorów. Zero kamer. 100% prywatności.">
+
+    <!-- SEO & Open Graph -->
+    <link rel="alternate" hreflang="pl" href="?lang=pl">
+    <link rel="alternate" hreflang="en" href="?lang=en">
+    <link rel="alternate" hreflang="x-default" href="?lang=pl">
+    <meta property="og:title" content="FamilyGuardAngel - Ochrona bez Inwigilacji">
+    <meta property="og:description" content="Rewolucyjna technologia radarowa mmWave do wykrywania upadków seniorów.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pl_PL">
+    <meta property="og:locale:alternate" content="en_US">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cookie Consent Banner -->
+    <div id="cookie-banner" class="cookie-banner hidden">
+        <p data-i18n="cookie.message">Ta strona używa plików cookie w celu zapewnienia najlepszej jakości usług.</p>
+        <div class="cookie-buttons">
+            <button id="cookie-accept" class="btn btn-primary btn-sm" data-i18n="cookie.accept">Akceptuję</button>
+            <a href="#" class="cookie-link" data-i18n="cookie.learnMore">Dowiedz się więcej</a>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav-logo">
+                <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/>
+                    <circle cx="20" cy="20" r="12" stroke="currentColor" stroke-width="2" opacity="0.7"/>
+                    <circle cx="20" cy="20" r="6" stroke="currentColor" stroke-width="2" opacity="0.5"/>
+                    <circle cx="20" cy="20" r="3" fill="currentColor"/>
+                </svg>
+                <span>FamilyGuardAngel</span>
+            </a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#problem" class="nav-link" data-i18n="nav.problem">Problem</a></li>
+                    <li><a href="#solution" class="nav-link" data-i18n="nav.solution">Rozwiązanie</a></li>
+                    <li><a href="#market" class="nav-link" data-i18n="nav.market">Rynek</a></li>
+                    <li><a href="#business-model" class="nav-link" data-i18n="nav.businessModel">Model Biznesowy</a></li>
+                    <li><a href="#financials" class="nav-link" data-i18n="nav.financials">Finanse</a></li>
+                    <li><a href="#team" class="nav-link" data-i18n="nav.team">Zespół</a></li>
+                    <li><a href="#contact" class="nav-link" data-i18n="nav.contact">Kontakt</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-actions">
+                <div class="language-toggle">
+                    <button class="lang-btn" data-lang="pl">PL</button>
+                    <span class="lang-separator">|</span>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero-background">
+                <div class="radar-waves">
+                    <div class="radar-wave"></div>
+                    <div class="radar-wave"></div>
+                    <div class="radar-wave"></div>
+                    <div class="radar-wave"></div>
+                </div>
+            </div>
+            <div class="container hero-content">
+                <h1 class="hero-title" data-i18n="hero.headline">Ochrona bez Inwigilacji</h1>
+                <p class="hero-subtitle" data-i18n="hero.subheadline">Rewolucyjna technologia radarowa mmWave do wykrywania upadków seniorów. Zero kamer. 100% prywatności.</p>
+                <div class="hero-stat">
+                    <span class="stat-number" data-i18n="hero.stat">5M+</span>
+                    <span class="stat-label" data-i18n="hero.statLabel">samotnie żyjących seniorów w Polsce</span>
+                </div>
+                <a href="#contact" class="btn btn-primary btn-lg" data-i18n="hero.cta">Pobierz Materiały dla Inwestorów</a>
+            </div>
+            <div class="hero-scroll">
+                <div class="scroll-indicator"></div>
+            </div>
+        </section>
+
+        <!-- Problem Section -->
+        <section class="section section-light" id="problem">
+            <div class="container">
+                <h2 class="section-title" data-i18n="problem.title">Kryzys, o Którym Nikt Nie Mówi</h2>
+
+                <div class="problem-grid">
+                    <div class="problem-card problem-card-featured animate-on-scroll">
+                        <div class="problem-icon">
+                            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="32" cy="20" r="10" stroke="currentColor" stroke-width="2"/>
+                                <path d="M20 60 L32 35 L44 60" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M15 50 L50 50" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 4"/>
+                            </svg>
+                        </div>
+                        <h3 class="problem-title" data-i18n="problem.longLie.title">"Długie Leżenie"</h3>
+                        <p class="problem-description" data-i18n="problem.longLie.description">Senior po upadku pozostaje nieodkryty przez godziny, a nawet dni</p>
+                    </div>
+
+                    <div class="problem-card animate-on-scroll">
+                        <div class="problem-stat">
+                            <span class="counter" data-target="80" data-i18n="problem.bathroom.stat">80</span>%
+                        </div>
+                        <p class="problem-description" data-i18n="problem.bathroom.description">upadków ma miejsce w łazience, gdzie kamery są nie do przyjęcia</p>
+                    </div>
+
+                    <div class="problem-card animate-on-scroll">
+                        <div class="problem-stat">
+                            <span class="counter" data-target="40">40</span>%+
+                        </div>
+                        <h3 class="problem-title" data-i18n="problem.wearables.title">Opaski zawodzą</h3>
+                        <p class="problem-description" data-i18n="problem.wearables.description">przypadków niestosowania - zapomniane, nienaładowane, zdejmowane podczas kąpieli</p>
+                    </div>
+
+                    <div class="problem-card animate-on-scroll">
+                        <div class="problem-stat">
+                            <span class="counter-text" data-i18n="problem.sandwich.stat">6-7 mln</span>
+                        </div>
+                        <h3 class="problem-title" data-i18n="problem.sandwich.title">Kryzys "Pokolenia Kanapkowego"</h3>
+                        <p class="problem-description" data-i18n="problem.sandwich.description">Polaków w wieku 35-55 lat opiekuje się rodzicami na odległość</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Solution Section -->
+        <section class="section section-dark" id="solution">
+            <div class="container">
+                <h2 class="section-title" data-i18n="solution.title">Niewidzialny Opiekun</h2>
+                <p class="section-subtitle" data-i18n="solution.subtitle">Technologia radarowa 60GHz mmWave</p>
+
+                <div class="features-grid">
+                    <div class="feature-card animate-on-scroll">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 40 Q24 20 40 40" stroke="currentColor" stroke-width="2" fill="none"/>
+                                <path d="M12 36 Q24 24 36 36" stroke="currentColor" stroke-width="2" fill="none" opacity="0.7"/>
+                                <path d="M16 32 Q24 26 32 32" stroke="currentColor" stroke-width="2" fill="none" opacity="0.5"/>
+                                <circle cx="24" cy="14" r="6" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title" data-i18n="solution.features.steam.title">Przez parę i wilgoć</h3>
+                        <p class="feature-description" data-i18n="solution.features.steam.description">Wykrywa upadki nawet w pełnej pary łazience</p>
+                    </div>
+
+                    <div class="feature-card animate-on-scroll">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 24 Q16 16 24 24 Q32 32 40 24" stroke="currentColor" stroke-width="2"/>
+                                <path d="M8 28 Q16 20 24 28 Q32 36 40 28" stroke="currentColor" stroke-width="2" opacity="0.5"/>
+                                <circle cx="24" cy="12" r="4" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title" data-i18n="solution.features.vitals.title">Monitoring funkcji życiowych</h3>
+                        <p class="feature-description" data-i18n="solution.features.vitals.description">Monitoruje oddech bez kontaktu z ciałem</p>
+                    </div>
+
+                    <div class="feature-card animate-on-scroll">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="8" y="8" width="32" height="32" rx="4" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="24" cy="24" r="8" stroke="currentColor" stroke-width="2"/>
+                                <path d="M20 24 L24 28 L32 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title" data-i18n="solution.features.privacy.title">100% prywatności</h3>
+                        <p class="feature-description" data-i18n="solution.features.privacy.description">Działa w łazience bez naruszania prywatności</p>
+                    </div>
+
+                    <div class="feature-card animate-on-scroll">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="12" y="8" width="24" height="32" rx="2" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="24" cy="24" r="6" stroke="currentColor" stroke-width="2"/>
+                                <path d="M24 18 L24 12" stroke="currentColor" stroke-width="2"/>
+                                <path d="M24 36 L24 30" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title" data-i18n="solution.features.zero.title">Zero interakcji</h3>
+                        <p class="feature-description" data-i18n="solution.features.zero.description">"Babcia nie może zapomnieć założyć ściany"</p>
+                    </div>
+                </div>
+
+                <!-- Comparison Table -->
+                <div class="comparison-wrapper animate-on-scroll">
+                    <h3 class="comparison-title" data-i18n="solution.comparison.title">Porównanie technologii</h3>
+                    <div class="table-responsive">
+                        <table class="comparison-table">
+                            <thead>
+                                <tr>
+                                    <th data-i18n="solution.comparison.headers.feature">Funkcja</th>
+                                    <th data-i18n="solution.comparison.headers.cameras">Kamery</th>
+                                    <th data-i18n="solution.comparison.headers.wearables">Opaski</th>
+                                    <th class="highlight" data-i18n="solution.comparison.headers.fga">FamilyGuardAngel</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td data-i18n="solution.comparison.rows.privacy">Prywatność</td>
+                                    <td><span class="icon-no">✕</span></td>
+                                    <td><span class="icon-partial">~</span></td>
+                                    <td class="highlight"><span class="icon-yes">✓</span></td>
+                                </tr>
+                                <tr>
+                                    <td data-i18n="solution.comparison.rows.bathroom">Działa w łazience</td>
+                                    <td><span class="icon-no">✕</span></td>
+                                    <td><span class="icon-partial">~</span></td>
+                                    <td class="highlight"><span class="icon-yes">✓</span></td>
+                                </tr>
+                                <tr>
+                                    <td data-i18n="solution.comparison.rows.userAction">Wymaga działania użytkownika</td>
+                                    <td><span class="icon-no">✕</span></td>
+                                    <td><span class="icon-no">✕</span></td>
+                                    <td class="highlight"><span class="icon-yes">✓</span></td>
+                                </tr>
+                                <tr>
+                                    <td data-i18n="solution.comparison.rows.vitals">Monitoring funkcji życiowych</td>
+                                    <td><span class="icon-no">✕</span></td>
+                                    <td><span class="icon-yes">✓</span></td>
+                                    <td class="highlight"><span class="icon-yes">✓</span></td>
+                                </tr>
+                                <tr>
+                                    <td data-i18n="solution.comparison.rows.reliability">Niezawodność 24/7</td>
+                                    <td><span class="icon-partial">~</span></td>
+                                    <td><span class="icon-no">✕</span></td>
+                                    <td class="highlight"><span class="icon-yes">✓</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Market Section -->
+        <section class="section section-light" id="market">
+            <div class="container">
+                <h2 class="section-title" data-i18n="market.title">Potencjał Rynkowy</h2>
+
+                <div class="market-grid">
+                    <div class="market-card animate-on-scroll">
+                        <div class="market-chart">
+                            <svg class="donut-chart" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="40" fill="none" stroke="#E8EDF3" stroke-width="12"/>
+                                <circle class="donut-segment" cx="50" cy="50" r="40" fill="none" stroke="var(--color-primary)" stroke-width="12" stroke-dasharray="251.2" stroke-dashoffset="0" transform="rotate(-90 50 50)"/>
+                            </svg>
+                            <div class="market-value">
+                                <span class="market-number" data-i18n="market.tam.value">5M+</span>
+                                <span class="market-label" data-i18n="market.tam.label">TAM</span>
+                            </div>
+                        </div>
+                        <p class="market-description" data-i18n="market.tam.description">seniorów żyjących samotnie w Polsce</p>
+                    </div>
+
+                    <div class="market-card animate-on-scroll">
+                        <div class="market-chart">
+                            <svg class="donut-chart" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="40" fill="none" stroke="#E8EDF3" stroke-width="12"/>
+                                <circle class="donut-segment" cx="50" cy="50" r="40" fill="none" stroke="var(--color-accent)" stroke-width="12" stroke-dasharray="25.12" stroke-dashoffset="0" transform="rotate(-90 50 50)"/>
+                            </svg>
+                            <div class="market-value">
+                                <span class="market-number" data-i18n="market.sam.value">500 000</span>
+                                <span class="market-label" data-i18n="market.sam.label">SAM</span>
+                            </div>
+                        </div>
+                        <p class="market-description" data-i18n="market.sam.description">w dużych miastach z dostępem do internetu</p>
+                    </div>
+
+                    <div class="market-card animate-on-scroll">
+                        <div class="market-chart">
+                            <svg class="donut-chart" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="40" fill="none" stroke="#E8EDF3" stroke-width="12"/>
+                                <circle class="donut-segment" cx="50" cy="50" r="40" fill="none" stroke="var(--color-primary)" stroke-width="12" stroke-dasharray="1.256" stroke-dashoffset="0" transform="rotate(-90 50 50)"/>
+                            </svg>
+                            <div class="market-value">
+                                <span class="market-number" data-i18n="market.target.value">0,5%</span>
+                                <span class="market-label" data-i18n="market.target.label">Cel</span>
+                            </div>
+                        </div>
+                        <p class="market-description" data-i18n="market.target.description">udziału w rynku w 36 miesięcy</p>
+                    </div>
+
+                    <div class="market-card animate-on-scroll">
+                        <div class="market-chart eu-expansion">
+                            <svg viewBox="0 0 100 100" class="eu-icon">
+                                <circle cx="50" cy="50" r="40" fill="none" stroke="var(--color-accent)" stroke-width="2"/>
+                                <text x="50" y="55" text-anchor="middle" fill="var(--color-accent)" font-size="24" font-weight="600" data-i18n="market.expansion.value">EU</text>
+                            </svg>
+                        </div>
+                        <p class="market-label-lg" data-i18n="market.expansion.label">Ekspansja</p>
+                        <p class="market-description" data-i18n="market.expansion.description">Potencjał ekspansji europejskiej</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Business Model Section -->
+        <section class="section section-gradient" id="business-model">
+            <div class="container">
+                <h2 class="section-title" data-i18n="businessModel.title">Bezpieczeństwo jako Usługa</h2>
+                <p class="section-subtitle" data-i18n="businessModel.tagline">Niski próg wejścia, stabilne przychody cykliczne</p>
+
+                <div class="pricing-grid">
+                    <div class="pricing-card animate-on-scroll">
+                        <div class="pricing-icon hardware-icon">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="8" y="12" width="32" height="24" rx="4" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="24" cy="24" r="6" stroke="currentColor" stroke-width="2"/>
+                                <path d="M18 24 L30 24" stroke="currentColor" stroke-width="2"/>
+                                <path d="M24 18 L24 30" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="pricing-label" data-i18n="businessModel.hardware.label">Zestaw sprzętowy</h3>
+                        <div class="pricing-amount">
+                            <span class="price" data-i18n="businessModel.hardware.price">499 PLN</span>
+                        </div>
+                        <p class="pricing-note" data-i18n="businessModel.hardware.note">niemal po kosztach</p>
+                    </div>
+
+                    <div class="pricing-card pricing-card-featured animate-on-scroll">
+                        <div class="pricing-icon subscription-icon">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="24" cy="24" r="16" stroke="currentColor" stroke-width="2"/>
+                                <path d="M24 14 L24 24 L32 28" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="pricing-label" data-i18n="businessModel.subscription.label">Abonament</h3>
+                        <div class="pricing-amount">
+                            <span class="price" data-i18n="businessModel.subscription.price">69 PLN/mies.</span>
+                        </div>
+                        <p class="pricing-note highlight" data-i18n="businessModel.subscription.note">&gt;90% marży</p>
+                    </div>
+                </div>
+
+                <div class="ltv-section animate-on-scroll">
+                    <h3 class="ltv-title" data-i18n="businessModel.ltv.title">Wartość klienta (LTV)</h3>
+                    <div class="ltv-calculation">
+                        <span class="ltv-formula" data-i18n="businessModel.ltv.calculation">69 PLN × 36 mies. = 2 484 PLN</span>
+                    </div>
+                    <p class="ltv-ratio" data-i18n="businessModel.ltv.ratio">Stosunek LTV:CAC &gt; 5:1</p>
+                </div>
+
+                <div class="streams-section animate-on-scroll">
+                    <h3 class="streams-title" data-i18n="businessModel.streams.title">Strumienie przychodów</h3>
+                    <div class="streams-grid">
+                        <div class="stream-item">
+                            <div class="stream-bar" style="--width: 25%"></div>
+                            <span data-i18n="businessModel.streams.hardware">Sprzedaż sprzętu</span>
+                        </div>
+                        <div class="stream-item">
+                            <div class="stream-bar" style="--width: 55%"></div>
+                            <span data-i18n="businessModel.streams.subscription">Subskrypcje</span>
+                        </div>
+                        <div class="stream-item">
+                            <div class="stream-bar" style="--width: 15%"></div>
+                            <span data-i18n="businessModel.streams.b2b">Partnerstwa B2B</span>
+                        </div>
+                        <div class="stream-item">
+                            <div class="stream-bar" style="--width: 5%"></div>
+                            <span data-i18n="businessModel.streams.data">Analityka danych</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Financials Section -->
+        <section class="section section-light" id="financials">
+            <div class="container">
+                <h2 class="section-title" data-i18n="financials.title">Plan Finansowy</h2>
+
+                <div class="financials-grid">
+                    <div class="financial-card animate-on-scroll">
+                        <div class="financial-year" data-i18n="financials.years.y1.year">Rok 1 (2026)</div>
+                        <div class="financial-bar investment"></div>
+                        <div class="financial-revenue" data-i18n="financials.years.y1.revenue">Inwestycja</div>
+                        <div class="financial-description" data-i18n="financials.years.y1.description">Faza inwestycyjna</div>
+                    </div>
+
+                    <div class="financial-card animate-on-scroll">
+                        <div class="financial-year" data-i18n="financials.years.y2.year">Rok 2 (2027)</div>
+                        <div class="financial-bar growth" style="--height: 35%"></div>
+                        <div class="financial-revenue" data-i18n="financials.years.y2.revenue">1,6 mln PLN</div>
+                        <div class="financial-description" data-i18n="financials.years.y2.description">Próg rentowności Q3</div>
+                    </div>
+
+                    <div class="financial-card animate-on-scroll">
+                        <div class="financial-year" data-i18n="financials.years.y3.year">Rok 3 (2028)</div>
+                        <div class="financial-bar profit" style="--height: 100%"></div>
+                        <div class="financial-revenue" data-i18n="financials.years.y3.revenue">4,5 mln PLN</div>
+                        <div class="financial-description" data-i18n="financials.years.y3.description">Rentowność operacyjna</div>
+                    </div>
+                </div>
+
+                <div class="financial-highlight animate-on-scroll">
+                    <div class="highlight-icon">
+                        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24 8 L24 40" stroke="currentColor" stroke-width="2"/>
+                            <path d="M16 16 L24 8 L32 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8 32 L40 32" stroke="currentColor" stroke-width="2" stroke-dasharray="4 4"/>
+                        </svg>
+                    </div>
+                    <p data-i18n="financials.highlight">85% redukcja CAPEX dzięki strategii Smart OEM</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Competitive Landscape Section -->
+        <section class="section section-dark" id="competitive">
+            <div class="container">
+                <h2 class="section-title" data-i18n="competitive.title">Pozycja Konkurencyjna</h2>
+
+                <div class="matrix-wrapper animate-on-scroll">
+                    <div class="matrix-container">
+                        <div class="matrix-axis-y">
+                            <span class="axis-label-high" data-i18n="competitive.axes.privacyHigh">Wysoka</span>
+                            <span class="axis-title" data-i18n="competitive.axes.privacy">Prywatność</span>
+                            <span class="axis-label-low" data-i18n="competitive.axes.privacyLow">Niska</span>
+                        </div>
+                        <div class="matrix-grid">
+                            <div class="matrix-quadrant q1">
+                                <div class="competitor fga">
+                                    <span>FamilyGuardAngel</span>
+                                </div>
+                                <div class="blue-ocean" data-i18n="competitive.callout">Błękitny Ocean</div>
+                            </div>
+                            <div class="matrix-quadrant q2">
+                                <div class="competitor premium" data-i18n="competitive.legend.premium">Rozwiązania Premium</div>
+                            </div>
+                            <div class="matrix-quadrant q3">
+                                <div class="competitor wearables" data-i18n="competitive.legend.wearables">Opaski</div>
+                            </div>
+                            <div class="matrix-quadrant q4">
+                                <div class="competitor cameras" data-i18n="competitive.legend.cameras">Kamery</div>
+                            </div>
+                        </div>
+                        <div class="matrix-axis-x">
+                            <span class="axis-label-high" data-i18n="competitive.axes.frictionHigh">Wysoki</span>
+                            <span class="axis-title" data-i18n="competitive.axes.friction">Wysiłek Użytkownika</span>
+                            <span class="axis-label-low" data-i18n="competitive.axes.frictionLow">Niski</span>
+                        </div>
+                    </div>
+
+                    <div class="matrix-legend">
+                        <div class="legend-item">
+                            <span class="legend-dot cameras"></span>
+                            <span data-i18n="competitive.legend.cameras">Kamery</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-dot wearables"></span>
+                            <span data-i18n="competitive.legend.wearables">Opaski</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-dot premium"></span>
+                            <span data-i18n="competitive.legend.premium">Rozwiązania Premium</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-dot fga"></span>
+                            <span data-i18n="competitive.legend.fga">FamilyGuardAngel</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Roadmap Section -->
+        <section class="section section-light" id="roadmap">
+            <div class="container">
+                <h2 class="section-title" data-i18n="roadmap.title">Harmonogram i Kamienie Milowe</h2>
+
+                <div class="timeline">
+                    <div class="timeline-item animate-on-scroll">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date" data-i18n="roadmap.milestones.q1_2026.date">Q1 2026</span>
+                            <h3 class="timeline-title" data-i18n="roadmap.milestones.q1_2026.title">Program Beta</h3>
+                            <p class="timeline-description" data-i18n="roadmap.milestones.q1_2026.description">100 gospodarstw domowych</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item animate-on-scroll">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date" data-i18n="roadmap.milestones.q2_2026.date">Q2 2026</span>
+                            <h3 class="timeline-title" data-i18n="roadmap.milestones.q2_2026.title">Premiera komercyjna</h3>
+                            <p class="timeline-description" data-i18n="roadmap.milestones.q2_2026.description">Wejście na rynek</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item animate-on-scroll">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date" data-i18n="roadmap.milestones.q4_2026.date">Q4 2026</span>
+                            <h3 class="timeline-title" data-i18n="roadmap.milestones.q4_2026.title">1000 subskrybentów</h3>
+                            <p class="timeline-description" data-i18n="roadmap.milestones.q4_2026.description">Pierwsza skala</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item animate-on-scroll">
+                        <div class="timeline-marker active"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date" data-i18n="roadmap.milestones.q3_2027.date">Q3 2027</span>
+                            <h3 class="timeline-title" data-i18n="roadmap.milestones.q3_2027.title">Próg rentowności</h3>
+                            <p class="timeline-description" data-i18n="roadmap.milestones.q3_2027.description">Break-even</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item animate-on-scroll">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date" data-i18n="roadmap.milestones.2028.date">2028</span>
+                            <h3 class="timeline-title" data-i18n="roadmap.milestones.2028.title">Partnerstwa B2B</h3>
+                            <p class="timeline-description" data-i18n="roadmap.milestones.2028.description">LuxMed, PZU i inni</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section class="section section-gradient" id="team">
+            <div class="container">
+                <h2 class="section-title" data-i18n="team.title">Zespół</h2>
+
+                <div class="team-grid">
+                    <div class="team-card animate-on-scroll">
+                        <div class="team-avatar">
+                            <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="40" cy="30" r="16" stroke="currentColor" stroke-width="2"/>
+                                <path d="M12 72 C12 52 28 44 40 44 C52 44 68 52 68 72" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="team-name">Jan Kowalski</h3>
+                        <p class="team-role" data-i18n="team.roles.ceo">CEO</p>
+                        <a href="#" class="team-linkedin" data-i18n="team.viewLinkedIn">LinkedIn</a>
+                    </div>
+
+                    <div class="team-card animate-on-scroll">
+                        <div class="team-avatar">
+                            <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="40" cy="30" r="16" stroke="currentColor" stroke-width="2"/>
+                                <path d="M12 72 C12 52 28 44 40 44 C52 44 68 52 68 72" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="team-name">Anna Nowak</h3>
+                        <p class="team-role" data-i18n="team.roles.cto">CTO</p>
+                        <a href="#" class="team-linkedin" data-i18n="team.viewLinkedIn">LinkedIn</a>
+                    </div>
+
+                    <div class="team-card animate-on-scroll">
+                        <div class="team-avatar">
+                            <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="40" cy="30" r="16" stroke="currentColor" stroke-width="2"/>
+                                <path d="M12 72 C12 52 28 44 40 44 C52 44 68 52 68 72" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="team-name">Piotr Wiśniewski</h3>
+                        <p class="team-role" data-i18n="team.roles.marketing">Dyrektor Marketingu</p>
+                        <a href="#" class="team-linkedin" data-i18n="team.viewLinkedIn">LinkedIn</a>
+                    </div>
+
+                    <div class="team-card animate-on-scroll">
+                        <div class="team-avatar">
+                            <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="40" cy="30" r="16" stroke="currentColor" stroke-width="2"/>
+                                <path d="M12 72 C12 52 28 44 40 44 C52 44 68 52 68 72" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="team-name">Maria Dąbrowska</h3>
+                        <p class="team-role" data-i18n="team.roles.sales">Dyrektor Sprzedaży</p>
+                        <a href="#" class="team-linkedin" data-i18n="team.viewLinkedIn">LinkedIn</a>
+                    </div>
+
+                    <div class="team-card animate-on-scroll">
+                        <div class="team-avatar">
+                            <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="40" cy="30" r="16" stroke="currentColor" stroke-width="2"/>
+                                <path d="M12 72 C12 52 28 44 40 44 C52 44 68 52 68 72" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="team-name">Tomasz Lewandowski</h3>
+                        <p class="team-role" data-i18n="team.roles.operations">Operacje</p>
+                        <a href="#" class="team-linkedin" data-i18n="team.viewLinkedIn">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact / CTA Section -->
+        <section class="section section-cta" id="contact">
+            <div class="container">
+                <h2 class="section-title" data-i18n="cta.title">Dołącz do Budowania Przyszłości Opieki Senioralnej</h2>
+
+                <div class="cta-content">
+                    <form id="contact-form" class="contact-form animate-on-scroll">
+                        <div class="form-group">
+                            <label for="name" data-i18n="cta.form.name">Imię i nazwisko</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="error-message" data-i18n="cta.validation.nameRequired">Proszę podać imię i nazwisko</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" data-i18n="cta.form.email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message" data-i18n="cta.validation.emailRequired">Proszę podać prawidłowy adres email</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company" data-i18n="cta.form.company">Firma</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="interest" data-i18n="cta.form.interest">Zainteresowanie inwestycyjne</label>
+                            <select id="interest" name="interest" required>
+                                <option value="" data-i18n="cta.form.interestOptions.select">Wybierz zakres...</option>
+                                <option value="seed" data-i18n="cta.form.interestOptions.seed">Runda Seed (do 500k PLN)</option>
+                                <option value="seriesA" data-i18n="cta.form.interestOptions.seriesA">Seria A (500k - 2M PLN)</option>
+                                <option value="seriesB" data-i18n="cta.form.interestOptions.seriesB">Seria B (2M+ PLN)</option>
+                                <option value="strategic" data-i18n="cta.form.interestOptions.strategic">Partner strategiczny</option>
+                                <option value="other" data-i18n="cta.form.interestOptions.other">Inne</option>
+                            </select>
+                            <span class="error-message" data-i18n="cta.validation.interestRequired">Proszę wybrać zakres zainteresowania inwestycją</span>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn-primary" data-i18n="cta.buttons.download">Pobierz Pitch Deck</button>
+                            <button type="button" class="btn btn-secondary" data-i18n="cta.buttons.schedule">Umów Spotkanie</button>
+                        </div>
+
+                        <div class="form-success hidden" data-i18n="cta.success">Dziękujemy! Skontaktujemy się wkrótce.</div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/>
+                        <circle cx="20" cy="20" r="12" stroke="currentColor" stroke-width="2" opacity="0.7"/>
+                        <circle cx="20" cy="20" r="6" stroke="currentColor" stroke-width="2" opacity="0.5"/>
+                        <circle cx="20" cy="20" r="3" fill="currentColor"/>
+                    </svg>
+                    <span>FamilyGuardAngel</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#" data-i18n="footer.privacy">Polityka prywatności</a>
+                    <a href="#" data-i18n="footer.terms">Regulamin</a>
+                </div>
+                <p class="footer-copyright" data-i18n="footer.copyright">© 2026 FamilyGuardAngel. Wszelkie prawa zastrzeżone.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+</body>
+</html>

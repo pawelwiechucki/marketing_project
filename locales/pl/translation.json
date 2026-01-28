@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "title": "FamilyGuardAngel - Ochrona bez Inwigilacji",
+    "description": "Rewolucyjna technologia radarowa mmWave do wykrywania upadków seniorów. Zero kamer. 100% prywatności."
+  },
+  "nav": {
+    "problem": "Problem",
+    "solution": "Rozwiązanie",
+    "market": "Rynek",
+    "businessModel": "Model Biznesowy",
+    "financials": "Finanse",
+    "team": "Zespół",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "headline": "Ochrona bez Inwigilacji",
+    "subheadline": "Rewolucyjna technologia radarowa mmWave do wykrywania upadków seniorów. Zero kamer. 100% prywatności.",
+    "stat": "5M+",
+    "statLabel": "samotnie żyjących seniorów w Polsce",
+    "cta": "Pobierz Materiały dla Inwestorów"
+  },
+  "problem": {
+    "title": "Kryzys, o Którym Nikt Nie Mówi",
+    "longLie": {
+      "title": "\"Długie Leżenie\"",
+      "description": "Senior po upadku pozostaje nieodkryty przez godziny, a nawet dni"
+    },
+    "bathroom": {
+      "stat": "80%",
+      "description": "upadków ma miejsce w łazience, gdzie kamery są nie do przyjęcia"
+    },
+    "wearables": {
+      "stat": "40%+",
+      "title": "Opaski zawodzą",
+      "description": "przypadków niestosowania - zapomniane, nienaładowane, zdejmowane podczas kąpieli"
+    },
+    "sandwich": {
+      "stat": "6-7 mln",
+      "title": "Kryzys \"Pokolenia Kanapkowego\"",
+      "description": "Polaków w wieku 35-55 lat opiekuje się rodzicami na odległość"
+    }
+  },
+  "solution": {
+    "title": "Niewidzialny Opiekun",
+    "subtitle": "Technologia radarowa 60GHz mmWave",
+    "features": {
+      "steam": {
+        "title": "Przez parę i wilgoć",
+        "description": "Wykrywa upadki nawet w pełnej pary łazience"
+      },
+      "vitals": {
+        "title": "Monitoring funkcji życiowych",
+        "description": "Monitoruje oddech bez kontaktu z ciałem"
+      },
+      "privacy": {
+        "title": "100% prywatności",
+        "description": "Działa w łazience bez naruszania prywatności"
+      },
+      "zero": {
+        "title": "Zero interakcji",
+        "description": "\"Babcia nie może zapomnieć założyć ściany\""
+      }
+    },
+    "comparison": {
+      "title": "Porównanie technologii",
+      "headers": {
+        "feature": "Funkcja",
+        "cameras": "Kamery",
+        "wearables": "Opaski",
+        "fga": "FamilyGuardAngel"
+      },
+      "rows": {
+        "privacy": "Prywatność",
+        "bathroom": "Działa w łazience",
+        "userAction": "Wymaga działania użytkownika",
+        "vitals": "Monitoring funkcji życiowych",
+        "reliability": "Niezawodność 24/7"
+      }
+    }
+  },
+  "market": {
+    "title": "Potencjał Rynkowy",
+    "tam": {
+      "label": "TAM",
+      "value": "5M+",
+      "description": "seniorów żyjących samotnie w Polsce"
+    },
+    "sam": {
+      "label": "SAM",
+      "value": "500 000",
+      "description": "w dużych miastach z dostępem do internetu"
+    },
+    "target": {
+      "label": "Cel",
+      "value": "0,5%",
+      "description": "udziału w rynku w 36 miesięcy"
+    },
+    "expansion": {
+      "label": "Ekspansja",
+      "value": "EU",
+      "description": "Potencjał ekspansji europejskiej"
+    }
+  },
+  "businessModel": {
+    "title": "Bezpieczeństwo jako Usługa",
+    "tagline": "Niski próg wejścia, stabilne przychody cykliczne",
+    "hardware": {
+      "label": "Zestaw sprzętowy",
+      "price": "499 PLN",
+      "note": "niemal po kosztach"
+    },
+    "subscription": {
+      "label": "Abonament",
+      "price": "69 PLN/mies.",
+      "note": ">90% marży"
+    },
+    "ltv": {
+      "title": "Wartość klienta (LTV)",
+      "calculation": "69 PLN × 36 mies. = 2 484 PLN",
+      "ratio": "Stosunek LTV:CAC > 5:1"
+    },
+    "streams": {
+      "title": "Strumienie przychodów",
+      "hardware": "Sprzedaż sprzętu",
+      "subscription": "Subskrypcje",
+      "b2b": "Partnerstwa B2B",
+      "data": "Analityka danych"
+    }
+  },
+  "financials": {
+    "title": "Plan Finansowy",
+    "years": {
+      "y1": {
+        "year": "Rok 1 (2026)",
+        "description": "Faza inwestycyjna",
+        "revenue": "Inwestycja"
+      },
+      "y2": {
+        "year": "Rok 2 (2027)",
+        "description": "Próg rentowności Q3",
+        "revenue": "1,6 mln PLN"
+      },
+      "y3": {
+        "year": "Rok 3 (2028)",
+        "description": "Rentowność operacyjna",
+        "revenue": "4,5 mln PLN"
+      }
+    },
+    "highlight": "85% redukcja CAPEX dzięki strategii Smart OEM",
+    "chart": {
+      "revenue": "Przychody",
+      "costs": "Koszty",
+      "profit": "Zysk"
+    }
+  },
+  "competitive": {
+    "title": "Pozycja Konkurencyjna",
+    "axes": {
+      "privacy": "Prywatność",
+      "privacyLow": "Niska",
+      "privacyHigh": "Wysoka",
+      "friction": "Wysiłek Użytkownika",
+      "frictionHigh": "Wysoki",
+      "frictionLow": "Niski"
+    },
+    "legend": {
+      "cameras": "Kamery",
+      "wearables": "Opaski",
+      "premium": "Rozwiązania Premium",
+      "fga": "FamilyGuardAngel"
+    },
+    "callout": "Błękitny Ocean"
+  },
+  "roadmap": {
+    "title": "Harmonogram i Kamienie Milowe",
+    "milestones": {
+      "q1_2026": {
+        "date": "Q1 2026",
+        "title": "Program Beta",
+        "description": "100 gospodarstw domowych"
+      },
+      "q2_2026": {
+        "date": "Q2 2026",
+        "title": "Premiera komercyjna",
+        "description": "Wejście na rynek"
+      },
+      "q4_2026": {
+        "date": "Q4 2026",
+        "title": "1000 subskrybentów",
+        "description": "Pierwsza skala"
+      },
+      "q3_2027": {
+        "date": "Q3 2027",
+        "title": "Próg rentowności",
+        "description": "Break-even"
+      },
+      "2028": {
+        "date": "2028",
+        "title": "Partnerstwa B2B",
+        "description": "LuxMed, PZU i inni"
+      }
+    }
+  },
+  "team": {
+    "title": "Zespół",
+    "roles": {
+      "ceo": "CEO",
+      "cto": "CTO",
+      "marketing": "Dyrektor Marketingu",
+      "sales": "Dyrektor Sprzedaży",
+      "operations": "Operacje"
+    },
+    "viewLinkedIn": "LinkedIn"
+  },
+  "cta": {
+    "title": "Dołącz do Budowania Przyszłości Opieki Senioralnej",
+    "form": {
+      "name": "Imię i nazwisko",
+      "email": "Email",
+      "company": "Firma",
+      "interest": "Zainteresowanie inwestycyjne",
+      "interestOptions": {
+        "select": "Wybierz zakres...",
+        "seed": "Runda Seed (do 500k PLN)",
+        "seriesA": "Seria A (500k - 2M PLN)",
+        "seriesB": "Seria B (2M+ PLN)",
+        "strategic": "Partner strategiczny",
+        "other": "Inne"
+      }
+    },
+    "buttons": {
+      "download": "Pobierz Pitch Deck",
+      "schedule": "Umów Spotkanie"
+    },
+    "validation": {
+      "nameRequired": "Proszę podać imię i nazwisko",
+      "emailRequired": "Proszę podać prawidłowy adres email",
+      "interestRequired": "Proszę wybrać zakres zainteresowania inwestycją"
+    },
+    "success": "Dziękujemy! Skontaktujemy się wkrótce."
+  },
+  "footer": {
+    "copyright": "© 2026 FamilyGuardAngel. Wszelkie prawa zastrzeżone.",
+    "privacy": "Polityka prywatności",
+    "terms": "Regulamin"
+  },
+  "cookie": {
+    "message": "Ta strona używa plików cookie w celu zapewnienia najlepszej jakości usług.",
+    "accept": "Akceptuję",
+    "learnMore": "Dowiedz się więcej"
+  }
+}
