@@ -172,32 +172,32 @@
     "callout": "Błękitny Ocean"
   },
   "roadmap": {
-    "title": "Harmonogram i Kamienie Milowe",
+    "title": "Harmonogram",
     "milestones": {
       "q1_2026": {
         "date": "Q1 2026",
-        "title": "Program Beta",
-        "description": "100 gospodarstw domowych"
+        "title": "Beta",
+        "description": "100 gospodarstw"
       },
       "q2_2026": {
         "date": "Q2 2026",
-        "title": "Premiera komercyjna",
+        "title": "Premiera",
         "description": "Wejście na rynek"
       },
       "q4_2026": {
         "date": "Q4 2026",
-        "title": "1000 subskrybentów",
+        "title": "1000 klientów",
         "description": "Pierwsza skala"
       },
       "q3_2027": {
         "date": "Q3 2027",
-        "title": "Próg rentowności",
-        "description": "Break-even"
+        "title": "Break-even",
+        "description": "Próg rentowności"
       },
       "2028": {
         "date": "2028",
-        "title": "Partnerstwa B2B",
-        "description": "LuxMed, PZU i inni"
+        "title": "B2B",
+        "description": "LuxMed, PZU"
       }
     }
   },
